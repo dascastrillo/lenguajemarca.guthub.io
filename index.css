@@ -1,7 +1,20 @@
-h1{
-    text-align: center;
-}
 .opcion{
     background: #068E2B;
-    box-shadow: #066E23;
+    box-shadow:0px 3px 0px #0CDB9F;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10 px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    
 }
+.option2{
+}
+.imagen{
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 6px;
+} 
