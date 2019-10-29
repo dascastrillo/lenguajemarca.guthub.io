@@ -4,3 +4,12 @@ name: Dashrath
 description: esto es una pruba de clase, donde habra ejercicios...
 
 avatar: https://avatars1.githubusercontent.com/u/34643667?s=400&v=4
+
+markdown: kramdown
+highlighter: rouge
+permalink:
+
+version: v1.1.0
+
+exclude:
+  -README.md
