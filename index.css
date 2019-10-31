@@ -1,12 +1,112 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: serif;
 }
+
+header > h1{
+    width: 100%;
+    background: burlywood;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header{
-    width: 1200px;
-    height: 230px;
-    background-color:#DA70D6;
-    margin: auto;
-    margin-top: 100px;
+    width: 100%;
 }
+
+nav{
+    margin:auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: black;
+}
+
+/* va ha tener una posicion de celda, los que cumplan con la regla que he puesto. */
+nav > ul li {
+    display: table-cell;
+}
+
+/* Sub-menu */
+nav > ul >li:hover >ul {
+    display: block;
+    height: 100%;
+}
+nav > ul > li > ul {
+    display: block;
+    /*esto hace que tengamos un menu desplegable */
+    position: absolute;
+    background: black;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+    height: 0%; 
+}
+
+nav > ul li a{
+    color: red;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    /*para quitarle el subrayado feo */
+    text-decoration: none;
+}
+
+nav > ul > li > ul > li a:hover {
+    background: yellow;
+}
+
+/* desaparecen los iconos */
+nav > ul > li > a img{
+    background: green;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    /*gracias a esto  'top - 55' escondemos el icono */
+    top: -100px;
+    /* ponemos transition para hacer la magia */
+    -webkit-transition:top .3s ease;
+    width: 100%;
+    
+}
+
+/* cambiar el tamaño de la imagen */
+nav > ul > li > a #dos{
+    width: 10%;
+}
+
+/*centrar los iconos */
+nav > ul > li > a img.icono{
+    display: block;
+    line-height: 60px;
+}
+
+/*magia al menu , para que funcione la magia hay que poner las 'transition' donde haga referencia */
+nav > ul > li > a:hover > img{
+    top: 0;
+}
+
+/*color a los iconos */
+#uno{
+    background-color:blanchedalmond ;
+}
+
+#dos{
+    background:purple ;
+}
+
