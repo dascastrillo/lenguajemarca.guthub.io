@@ -80,7 +80,7 @@ nav > ul > li > a img{
     /*gracias a esto  'top - 55' escondemos el icono */
     top: -100px;
     /* ponemos transition para hacer la magia */
-    -webkit-transition:top .3s ease;
+    transition:.3s ease;
     width: 100%;
     
 }
