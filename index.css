@@ -42,7 +42,7 @@ nav > ul li {
 /* Sub-menu */
 nav > ul >li:hover >ul {
     display: block;
-    height: 100%;
+    height: auto;
 }
 nav > ul > li > ul {
     display: block;
