@@ -1,0 +1,36 @@
+body{
+    background: green;
+}
+h1{
+    color: white;
+}
+
+.cajauno{
+    background: white;
+   border: solid 5px black;
+   padding: 1px;
+   border-radius: 20px;
+   width: 40%;
+   margin: 1px;
+   margin-left:20% ;
+   margin-bottom: 15px;
+   padding: 1%;
+}
+.cajados{
+    background: blueviolet;
+    width: 40%;
+    border: solid 5px blue;
+    color: white;
+
+}
+.cajatres{
+    background: tran;
+   border: solid 5px red;
+   padding: 1px;
+   border-radius: 20px;
+   width: 40%;
+   margin: 1px;
+   margin-left:20% ;
+   margin-bottom: 15px;
+   padding: 1%;
+}
