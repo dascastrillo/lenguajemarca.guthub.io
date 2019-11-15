@@ -1,0 +1,7 @@
+div{
+    height: 30%;
+    width: 10%;
+    display: inline-block;
+    border: 5px solid turquoise;
+    background: violet;
+}

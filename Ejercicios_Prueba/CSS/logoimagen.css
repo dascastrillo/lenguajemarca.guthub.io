@@ -1,0 +1,18 @@
+div{
+    margin-right:50% ;
+}
+.imagen1{
+    float: left;
+    width: 20%;
+    height: 20%;
+    clear: both;
+}
+.imagen2{
+    float: left;
+    width: 20%;
+    height: 20%;
+    
+}
+hr{
+    clear:both; /*salto de bloque, no tiene que haber nada en ambos lados*/
+}
