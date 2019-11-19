@@ -1,0 +1,23 @@
+.container{
+    max-width:500px;
+  }
+  
+  div[class|="caja"]
+  {
+    position:static;
+    display:inline-block;
+    text-decoration:none;
+    width:100px;
+    height:100px;
+    margin:10px;
+    padding:10px;
+    border:1px solid #666;
+    background-color:#BB00BB;
+    color:#ffffff;
+  }
+  div.caja-5{
+      position: fixed;
+      top: 5px;
+      left: 50px;
+      background: red;
+  }
