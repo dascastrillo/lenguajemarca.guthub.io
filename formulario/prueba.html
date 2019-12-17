@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="agente.php">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="ingresatexto" type="text" value="" size="10" />
+      </form> <br>
+      
+      <form method="post" action="agente.php">
+        Ingresa tu contraseña: 
+        <input id="contrasena" type="password" value="" />
+   </form>   <br>
+   
+   <form method="post" action="agente.php">
+    Ingresa tus comentarios:<br />
+    <textarea id="comentarios" rows="2" cols="30">
+    </textarea>
+</form> <br>
+
+<form method="post" action="agente.php">
+    Selecciona tus intereses:<br />
+    <input name="cbipeliculas" type="checkbox" />Películas<br />
+    <input name="cbilibros" type="checkbox" />Libros<br />
+    <input name="cbiinternet" type="checkbox" />Internet
+</form> <br>
+
+<form method="post" action="agente.php">
+    Selecciona tu actividad favorita:<br />
+    <input name="intereses" type="radio" value="rbipeliculas" />Películas<br />
+    <input name="intereses" type="radio" value="rbilibros" />Libros<br />
+    <input name="intereses" type="radio" value="rbiinternet" />Internet
+  </form> <br>
+
+<select name="transporte" size="3" multiple>
+    <option>Coche</option>
+    <option>Avión</option>
+    <option>Tren</option>
+</select> <br>
+
+<form method="post" action="agente.php">
+    <input type="submit" value="Enviar este formulario" />
+    <input type="reset" value="Borrar" /> <br>
+    Selecciona el archivo: <input name="imagen" type="file" />
+</form> <br>
+
+<form method="post" action="agente.php">
+    <fieldset>
+        <legend>Información personal</legend>
+        <label for="lnombre">Nombre</label>:
+        <input id="lnombre" type="text" name="nombre" /><br />
+        <label for="lapellido">Apellido</label>:
+        <input id="lapellido" type="text" name="apellido" /><br />
+        <label for="ldireccion">Dirección</label>:
+        <input id="ldireccion" type="text" name="direccion" /><br />
+        <label for="ltelefono">Teléfono</label>:
+        <input id="ltelefono" type="text" name="telefono" />
+      </fieldset>
+      <fieldset>
+        <legend>Información laboral</legend>
+        <label for="ldirecciontrabajo">Dirección</label>:
+        <input
+          id="ldirecciontrabajo"
+          type="text"
+          name="direcciontrabajo"
+        /><br />
+        <label for="ltelefonotrabajo">Teléfono</label>:
+        <input id="ltelefonotrabajo" type="text" name="telefonotrabajo" />
+      </fieldset>
+
+</form>
+
+</body>
+</html>
