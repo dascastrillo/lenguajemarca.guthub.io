@@ -1,0 +1,23 @@
+<?xml version="1.0" enconding="UTF-8" ?>
+<farmacia>
+    <receta>
+        <tipo>electronica</tipo>
+        <medico>
+            <nombre_medico>Juan </nombre_medico>
+            <n_colegiado>12345 </n_colegiado>
+        </medico>
+        <fecha_prescincion>04/02/2020 </fecha_prescincion>
+        <medicamento_principal>
+            <nombre_medicamento>nolotil </nombre_medicamento>
+            <marca_medicamento>bayer </marca_medicamento>
+            <presentacion>24</presentacion>
+        </medicamento_principal>
+        
+        <medicamento_alternativo>
+            <orden_preferencia>1</orden_preferencia>
+            <nombre_medicamento>morfina </nombre_medicamento>
+            <marca_medicamento>bayer </marca_medicamento>
+            <presentacion>4</presentacion>
+        </medicamento_alternativos> 
+    </receta>
+</farmacia>
