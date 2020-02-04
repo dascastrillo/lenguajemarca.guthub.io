@@ -1,0 +1,19 @@
+<?xml version="1.0" enconding="UTF-8" ?>
+<recetas>
+    <PrimeraReceta>
+        <tipo>Tortitas veganas con nueces</tipo>
+        <descripcion>Estas tortitas veganas con nueces son el desayuno o la merienda saludable perfectos. El veganismo es un tipo de dieta cada vez más demandada. El hecho de no incluir...</descripcion>
+        <nombre>Gemma Meca</nombre>
+        <fecha>04/02/2020</fecha>
+        <link>https://okdiario.com/recetas/</link>
+    </PrimeraReceta>
+        
+    <SegundaReceta>
+        <tipo>Pote gallego</tipo>
+        <descripcion>Aquí veremos un plato bien completo y cargado de energía, para disfrutar en familia durante la temporada de invierno. El pote gallego es una receta clásica de Galicia, diseñada...</descripcion>
+        <nombre>Francisco María</nombre>
+        <fecha>04/02/2020</fecha>
+        <link>https://okdiario.com/recetas/</link>
+    </SegundaReceta>
+
+</recetas>

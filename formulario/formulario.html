@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Ejemplo formulario</title>
+    <script src="js/app.js">
+    <input type="text" id="texto" />
+var valor = document.getElementById("texto").value;
+<textarea id="parrafo"></textarea>
+var valor = document.getElementById("parrafo").value;
+
+
+    </script>
+</head>
+<body>
+        <div class="container" action="" id="form" onsubmit="return false">
+          <h2>Formulario (básico)</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="nombre" class="form-control" id="nombre" placeholder="Teclea tu nombre">
+            </div>
+            <div class="form-group" >
+              <label for="edad">Edad:</label>
+              <input type="edad" class="form-control" id="edad" placeholder="Teclea tu edad">
+            </div>
+            
+            <button type="submit" class="btn btn-default" onclick="getData();">Enviar</button>
+          </form>
+        </div>
+        <input type="checkbox" value="condiciones" name="condiciones" id="condiciones"/> He leído y acepto las condiciones
+
+</body>
+</html>
