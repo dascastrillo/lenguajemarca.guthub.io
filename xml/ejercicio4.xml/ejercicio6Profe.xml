@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informe>
+    <fecha>10/04/2020 </fecha>
+    <empresa>
+        <nombre>navarra 4 internet </nombre>
+        <n_trabajadores>6</n_trabajadores>
+        <multinacional>no</multinacional>
+        <moneda>euro</moneda>
+        <sector>tecnologia</sector>
+
+        <departamento>
+            <codigo>admin</codigo>
+            <nombre>administracion</nombre>
+
+            <empleados>
+                <empleado baja="NO">
+                    <nombre_apellido>Ana... </nombre_apellido>
+                    <salario>222 </salario>
+                    <baja>no </baja>
+                    <usuario>jkh</usuario>
+                    <clave>asdsdfgsdf</clave>
+                </empleado>
+                <empleado baja="NO">
+                    <nombre_apellido>Ana... </nombre_apellido>
+                    <salario>222 </salario>
+                    <baja>no </baja>
+                    <usuario>jkh</usuario>
+                    <clave>asdsdfgsdf</clave>
+                </empleado>
+                <empleado baja="NO">
+                    <nombre_apellido>Ana... </nombre_apellido>
+                    <salario>222 </salario>
+                    <baja>no </baja>
+                    <usuario>jkh</usuario>
+                    <clave>asdsdfgsdf</clave>
+                </empleado>
+            </empleados>
+        </departamento>
+
+    <departamento>
+    </departamento>
+
+    <departamento>
+    </departamento>
+    </empresa>
+
+</informe>
