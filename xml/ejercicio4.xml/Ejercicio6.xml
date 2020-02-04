@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informe_departamentos fecha="20-10-2013">
+    <nombre>Navarra 4 Internet </nombre>
+    <multinacional>no </multinacional>
+    <numero_trabajadores>6 </numero_trabajadores>
+    <moneda>Euro </moneda>
+    <sector>Tecnologia</sector>
+    <codigo>Admin</codigo>
+    <codigo>Infor</codigo>
+    <codigo>Marke</codigo>
+
+    <departamento>Administracion</departamento>
+    <departamento>Informaticca</departamento>
+    <departamento>Marketing</departamento>
+
+    <nombre_apellidos>Ana San Ruiz (Jefe)
+    Juna Gil Rus (Empleado)
+    Lucas Lopez Tapia (Empleado)
+    </nombre_apellidos>
+    <nombre_apellidos>Isabel Gomez Perez (Jefe)
+    Oscar Lee Blesa (Empleado)
+     </nombre_apellidos>
+    <nombre_apellidos>Luis Mar Herreros (Jefe) </nombre_apellidos>
+
+    <baja>No 
+    Si
+    No
+    </baja>
+    <baja>Si
+    No</baja>
+    <baja> No</baja>
+
+    <salario>4700.58
+    2200.58
+    2215.65
+     </salario>
+    <salario>5200.77
+    3109.26
+     </salario>
+    <salario> 5111.09 </salario>
+
+    <usuario>anasan</usuario>
+    <usuario>isabelgo</usuario>
+    <usuario>invitado</usuario>
+
+    <clave>3%abZki6 </clave>
+    <clave>8$abcdHj </clave>
+    <clave>2$xlzY#@ </clave>
+
+</informe_departamentos>
