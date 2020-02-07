@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <pedidos>
+        <pedido nombre="Ana Simone" fecha_pedido="20-04-2014">
+            <envio>Valladolid</envio>
+            <direccion>c/plaza duquesa 12</direccion>
+            <recojida>Alicia Torres</recojida>
+            <codigoPostal>47002</codigoPostal>
+            <disco_duro precio="148.95€" codigoProducto="872-AA">Disco duro de 2 Teras</disco_duro>
+            <cable precio="7.98€" codigo="926-FH" cantidad="3">cable HDMI</cable>
+            <descripcion>disco duro de 2 tera, 3 cables HDMI. </descripcion>
+        </pedido>
+    </pedidos>
+</empresa>

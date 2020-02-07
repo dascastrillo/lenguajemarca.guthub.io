@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <fecha_pedido>20/04/2014 </fecha_pedido>
+        <persona_recoge_pedido>Alicia Torres </persona_recoge_pedido>
+        <direccion_pedido>
+            <direccion>C/plaza de la Duquesa 12</direccion>
+            <provincia>Valladolid</provincia>
+            <codigo_postal>47002</codigo_postal>
+        </direccion_pedido>
+        <producto>
+            <codigo_producto>872-AA</codigo_producto>
+            <nombre_producto>Disco Duro </nombre_producto>
+            <precio_producto>148.95</precio_producto>
+            <cantidad>1</cantidad>
+        </producto>
+
+        <producto>
+            <codigo_producto>926-FH</codigo_producto>
+            <nombre_producto>cable HDMI</nombre_producto>
+            <precio_producto>7.98</precio_producto>
+            <cantidad>3</cantidad>
+        </producto>
+    </pedido>
+</pedidos>

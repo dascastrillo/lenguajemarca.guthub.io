@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paneles>
+    <evento tipo="Accidente" fecha="Mon, 31 Jan 2011 23:00:00 GMT">
+        <via>
+            <nombre>Autopista del V Centenario</nombre>
+            <ref>A-49</ref>
+            <origen>Sevilla</origen>
+            <destino>Huelva<destino>
+            <doble />
+            <carrilescortados>4</carrilescortados>
+        </via>
+        <pk>42.200</pk>
+        <sentido>1</sentido>
+        <retencion long="80000" />
+        <corte valor="1" />
+    </evento>
+</paneles>
