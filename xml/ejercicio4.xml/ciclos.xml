@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <nombre>IES Ribera de Castilla </nombre>
+    <web>http://www.riberacastilla.es</web>
+    <ciclos>
+        <ciclo>
+            <nombre>Administraccion de Sistemas Informaticos en Red </nombre>
+            <grado>Superior</grado>
+            <decretoTitulo ano="2009" />
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicaciones Web </nombre>
+            <grado>Superior</grado>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinformaticos y Redes</nombre>
+            <grado>Medio</grado>
+            <decretoTitulo ano="2008" />
+        </ciclo>
+    </ciclos>
+</ies>
+1. Nombre del instituto;
+/ies/nombre
+2. Paginas web del instituto:
+/ies/web
+3. Nombre de los ciclos Formativos;
+//ciclos//nombre/text()
+4. Siglas por las que se conocen los Ciclos Formativos.
+
+6. Ciclos formativos de grado medio (se trata de obtener el elemento <ciclos>completo):
+//ciclos/ciclo[@id='SMR']
+
+7. Nombre de los ciclos formativos de grado superior.
+
+8. Nombre de los Ciclos Formativos anteriores a 2010:
+
+9. 

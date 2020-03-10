@@ -1,0 +1,17 @@
+<fruteria>
+    <verdura>
+        <nombre>Coliflor</nombre>
+        <precio>2€</precio>
+    </verdura>
+
+    <aceitunas>
+        <nombre> Verdes como dash</nombre>
+        <precio>1€</precio>
+    </aceitunas>
+
+    <frutos_secos>
+        <nombre>almendras</nombre>
+        <precio>3€</precio>
+    </frutos_secos>
+
+</fruteria>

@@ -1,0 +1,12 @@
+["clientes"[
+    "cliente"{"-ID": "283"},
+    {"nombre":"Juan Carlos Crespin"},
+    "direccion"{"-verificada": "si"}[
+        {"calle": "Avda Perú"},
+        {"numero": "235"},
+        {"ciudad": "Fresnedillo"},
+        {"provincia": "Valladolid"},
+        {"CodigoPOstal": "47150"},
+        {"pais": "España"}
+    ]
+]

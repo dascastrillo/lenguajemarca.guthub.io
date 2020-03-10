@@ -1,0 +1,19 @@
+{
+    "mensaje":
+        {
+            "remite":[
+                        { "nombre": "Alfredo Reino" },
+                        {"email": "alf@ibium.com"}
+                     ], 
+            "destinatario":[
+                                { "nombre": "Alfredo Reino" },
+                                {"email": "alf@ibium.com"}
+                           ],
+            "asunto":[{"asunto": "Hola Bill"}],
+            
+            "texto":[
+                        {"parrafo": "¿Hola que tal?..."},
+                        {"...": "..."}
+                    ]
+        }
+}

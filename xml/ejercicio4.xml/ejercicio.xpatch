@@ -1,0 +1,17 @@
+//nombre/text() para que solo me salga nombre sin la etiqueta.
+/factura/vendedor/@id
+| or 
+.. --> directorio padre
+//cliente/* 
+@ --> seleccionar los atributos.
+[numero] --> //articulo[2] esto se ve muy poco.
+operadores logicos: and, or, not()
+operaciones aritmeticos: +, - *, /
+operaciones de comparacion: =, !=, <, >, <=, >=
+
+//fechaPublica[@año<1970]
+//articulo/cantidad[.>1] 
+//cantidad[.>1]/../denominacion/text()
+
+count(*) -->contar el nº de registros.
+sum(importe) -->sumar 
