@@ -6,13 +6,11 @@
   <title>Ejemplo nuevos controles</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="pizzeria.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
   
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
@@ -26,25 +24,107 @@
       });
     })(jQuery); // end of jQuery name space
   </script>
-
 </head>
 
 <body>
-  <div id="Menu">
+ <!-- crear la pizza -->
+  <div id="menu">
     <h1>Crea tu pizza</h1>
-    <p>Crea tu pizza!</p>
-    <p>Di</p>
+      <p class="desc">Crea tu pizza!</p>
+      <br>
+        <p class"desc"="">Diviértete creando tu pizza perfecta,&nbsp;elige tu masa favorita y los ingredientes que más te gustan. Ponle nombre a tu receta y guárdala para hacer tu próximo pedido más rápido y fácil.</p>
+  </div>
+  <!--como la quieres -->
+  <div class="submenu">
+    <h4>¿Cómo la quieres?</h4>
+      <section id="configurar-pizza" class="">                           
+      <span class="select">
+        <select id="numeroPizzas" disabled="disabled">
+          <option value="1" selected="selected">1 pizza</option>
+            <option value="2">2 pizzas</option>
+            <option value="3">3 pizzas</option>
+            <option value="4">4 pizzas</option>
+            <option value="5">5 pizzas</option>
+        </select>
+      </span>
+    <span class="select">
+      <select id="selectTamanioDet" class="tamanioMasa" name="Cantidad" onchange="Masas(); ShowHideToppingsByBaseAndTamanio(false);" style="disabled">
+        <option value="2" selected="&quot;selected&quot;" data-desc="Para 2 personas">Mediana</option>
+        <option value="3" data-desc="Para 4 personas">Familiar</option>
+      </select>
+    </span>
+    <small class="small-info">Para 2 personas</small>
   </div>
 
-  <div id="submenu">
-    <b><h6>¿Cómo la quieres?</h6></b> <br>
-    <select class="leSelect" >
-      <option value="1pizza">1 Pizza</option>
-  </select>
-
+  <div>
+    <span class="select">
+      <select id="selectMasa" class="tipoMasa" style="disabled">
+        <option value="1" selected="&quot;selected&quot;" data-desc="Para aquellos amantes del auténtico sabor de la pizza Domino's">Original</option>
+        <option value="15" data-desc="Borde relleno de queso cheddar y jalapeño.">NUEVA Cheddapeño Roll</option>
+        <option value="6" data-desc="Con delicioso borde relleno de queso">Domino's Roll</option>
+        <option value="8" data-desc="Borde relleno de queso de cabra fundido">Cabra &amp; Roll</option>
+        <option value="4" data-desc="La masa más fina y crujiente de Domino's">Finízzima</option>
+        <option value="2" data-desc="Al más puro estilo Chicago">Pan</option>
+      </select>
+    </span>
+    <small class="small-info">Para aquellos amantes del auténtico sabor de la pizza Domino's</small>
   </div>
 
+<!--cual es tu salsa-->
+<h4>¿Cuál es tu salsa?</h4>
+
+<div class="form-datos">
+    <form class="salsa-T" >
+            <input type="radio" name="pago1" id="SinSalsa" value="241001" class="css-checkbox">
+            <label idsalsa="241001" class="css-label" >
+                Sin salsa
+            </label>
+            <input type="radio" name="pago1" id="SalsaC" value="156001" class="css-checkbox">
+            <label idsalsa="156001" class="css-labe"  >
+                Salsa BBQ Original
+            </label>
+            <input type="radio" name="pago1" id="salsatomate" value="155001" class="css-checkbox" >
+            <label idsalsa="155001" class="css-label"  >
+                Salsa de tomate
+            </label>
+            <input type="radio" name="pago1" id="cremafresa" value="257001" class="css-checkbox">
+            <label idsalsa="257001" class="css-label" >
+                Crema fresca
+            </label>
+            <input type="radio" name="pago1" id="cremefresa1" value="258001" class="css-checkbox">
+            <label idsalsa="258001" class="css-label" >
+                Crema fresca y barbacoa
+            </label>
+            <input type="radio" name="pago1" id="SalsaBourbon" value="304001" class="css-checkbox">
+            <label idsalsa="304001" class="css-labelsalsa-label" >
+                Salsa Bourbon (0% alcohol)
+            </label>
+            <input type="radio" name="pago1" id="Salsabarbacoa" value="525001" class="css-checkbox">
+            <label  idsalsa="525001" class="css-label" >
+                Salsa barbacoa Texas
+            </label>
+    </form>
+</div>
+<!--cuantas mozzarella te apetece-->
+<h4>¿Cuánta mozzarella te apetece?</h4>
+  <div class="divertido">
+      <input type="hidden" id="composicion-queso" value="10">
+        <ul class="" id="quesos">
+          <li class="quesoE">Sin queso mozzarella</li>
+          <li class="moddle">
+            <span class="quesoEl">Queso 100% mozzarella</span>
+            <span class="fr quesoEle">Extra de queso 100% mozzarella</span>
+          </li>
+          <li class="quesoEle">Doble extra de queso 100% mozzarella</li>
+        </ul>
+  </div>
+
+<!--Empieza a elegir-->
   <div class="row">
+    <div class="col s12 m4 l3 yellow">
+      <p>Este texto utilizará 12 columnas en una pantalla pequeña, 4 en una pantalla mediana (m4),
+        y 3 en una pantalla grande (l3)</p>
+    </div>
     <form class="col s12">
       <div class="input-field col s12">
         <select>
@@ -130,10 +210,6 @@
       
     </form>
   </div>
-
-
-
 </body>
-
 
 </html>
